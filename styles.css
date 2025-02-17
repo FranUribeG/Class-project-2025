@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;
+}
+
+h1 {color: aliceblue;}
+
+p{color: cornsilk;}
+
+img{ border-style: dotted;
+border-image-width: 8px;
+border-color: black;
+}
+
+a {color: ghostwhite;}

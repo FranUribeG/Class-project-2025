@@ -12,3 +12,12 @@ border-color: black;
 }
 
 a {color: ghostwhite;}
+#main-nav {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+#main-nav a {
+    
+}
+}

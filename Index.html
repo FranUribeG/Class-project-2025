@@ -1,74 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!--metadata is contained in this element-->
-   
-
-        <title>My website</title>
-        <link rel="icon" href="https://api.deepai.org/job-view-file/b07ade6e-3b95-41bf-9252-1dd7424d967a/outputs/output.jpg">
-        <link rel="stylesheet" href="styles.css"
-   
-   
-    </head>
-    <!--nav is for navigation-->
-<nav id="main-nav">
-    <a href="index.html">Home</a>
-    <a href="Contact">Contact</a>
-   
-</nav>
-<p>
-Email us at <a href=""> info@example.com</a>
-</p>
-<p> 
-    Call us on <a href="04512589647">04512589647 </a>
-</p>
-<p>
-    Come and visit us
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.164989374145!2d151.20661099999998!3d-33.8596386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae5d24602b4b%3A0xf175cb3612229d55!2sKGV%20Recreation%20Centre!5e0!3m2!1sen!2sau!4v1740992454249!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-</p>
-
-<form>
-    <label for="First"></label> Your first name</label><br>
-
-    <input type="text" name="First name" id="First"><br>
-    <label for="email">Your email adress</label><br>
-
-    <input type="Email" name="email" id="email"><br>
-<!--checkbox-->
-<input type="checkbox" name="preference" id="pref" Checked> 
-<label for="pref"> Yes, I like spam </label>
-<button type="submit"></button>
-
-
-</form>
-
-
-</html>
-
-
-<!--body is for content-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TipToe Soles</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-    <div>
-        <h1> welcome </h1>
-        <p>Pandas 
 
-        </p>
-        
-
+  <!-- Header with Logo and Search -->
+  <header class="header">
+    <div class="logo">
+        <img src="Images/Logo.png" alt="TipToe Logo" />
+      </div>
+    <input type="text" class="search" placeholder="Search Bar" />
+    <div class="icons">
+      <span>👤</span>
+      <span>❤</span>
+      <span>🛒</span>
     </div>
+  </header>
 
-   <div>
-    <img src="https://sandiegozoowildlifealliance.org/sites/default/files/styles/3_2_aspect_ratio_hero_crop/public/2025-01/T2024_0319_064.jpg?itok=fCBWo763" alt="">
-<br>
-<a href="https://goodle.com.au"> Go to Google </a>
+  <!-- Navigation Menu -->
+  <nav class="nav-menu">
+    <button>Products</button>
+    <button>Services</button>
+    <button>About us</button>
+    <button>Contact us</button>
+  </nav>
 
-   </div> 
+  <!-- Banner -->
+  <section class="banner">
+    <h2>Latest Arrivals</h2>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="category-box">SHOP WOMEN</div>
+    <div class="category-box">SHOP MEN</div>
+    <div class="category-box">SALE</div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured">
+    <h2>Featured Products</h2>
+  </section>
+
+  <!-- Top Sale Products -->
+  <section class="top-sale">
+    <h3>TOP SALE PRODUCTS</h3>
+    <div class="sale-items">
+        <div class="sale-box">
+            <img src="Images/Clancy Blue.jpg" alt="Product 1" />
+          </div>
+          <div class="sale-box">
+            <img src="Images/Gary Black.jpg" alt="Product 2" />
+          </div>
+          
+      <div class="sale-box"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <strong>TipToe Shoes</strong>
+      <ul>
+        <li>About us</li>
+        <li>Find a store</li>
+        <li>Size guide</li>
+        <li>Feedback form</li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <strong>Help & Support</strong>
+      <ul>
+        <li>Contact us</li>
+        <li>Return</li>
+        <li>Exchange</li>
+        <li>Delivery</li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <label for="postcode">Find a Store</label>
+      <input type="text" id="postcode" placeholder="Postcode" />
+      <div class="social">
+        <p>Stay Social</p>
+        <span>📘</span>
+        <span>📸</span>
+      </div>
+    </div>
+  </footer>
+
 </body>
-
 </html>
-
-
-
-
-
